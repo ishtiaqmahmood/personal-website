@@ -4,6 +4,7 @@ import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
 import ProductList from "./components/productList/ProductList";
 import Skill from "./components/skill/skill";
+import Service from "./components/service/service";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 
@@ -21,6 +22,7 @@ const App = () => {
       <Intro />
       <About />
       <Skill />
+      <Service />
       <ProductList />
       <Contact />
     </div>

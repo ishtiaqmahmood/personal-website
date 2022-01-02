@@ -25,6 +25,7 @@ const Skill = () => {
               <h3>Web Language:</h3>
               <p>HTML</p>
               <p>CSS</p>
+              <p>SASS</p>
             </div>
           </div>
 
@@ -32,6 +33,7 @@ const Skill = () => {
             <div className="card">
               <h3>Databases:</h3>
               <p>MySQL</p>
+              <p>PostgreSQL</p>
               <p>MongoDB</p>
             </div>
           </div>
@@ -44,13 +46,15 @@ const Skill = () => {
               <p>Express.js</p>
               <p>Django</p>
               <p>Bootstrap</p>
-              <p>Material-ui</p>
+              <p>Material-UI</p>
               <p>Tailwind css</p>
             </div>
           </div>
           <div className="column">
             <div className="card">
-              <h3>Blokchain Framework:</h3>
+              <h3>Blockchain Framework:</h3>
+              <p>Ethereum</p>
+              <p>Tron</p>
               <p>Truffle</p>
               <p>Hardhat</p>
               <p>Web3.js</p>
@@ -61,9 +65,22 @@ const Skill = () => {
 
           <div className="column">
             <div className="card">
+              <h3>Data Science:</h3>
+              <p>Pandas</p>
+              <p>Scipy</p>
+              <p>Numpy</p>
+              <p>Scikit Learn</p>
+              <p>Matplotlib</p>
+              <p>Seaborn</p>
+            </div>
+          </div>
+
+          <div className="column">
+            <div className="card">
               <h3>Cloud:</h3>
               <p>AWS</p>
               <p>Google Cloud</p>
+              <p>Dropbox</p>
             </div>
           </div>
 
@@ -73,6 +90,11 @@ const Skill = () => {
               <p>Git</p>
               <p>Linux</p>
               <p>Redis</p>
+              <p>Networking</p>
+              <p>scapy</p>
+              <p>Scrarpy</p>
+              <p>Beautifulsoup</p>
+              <p>Selenium</p>
             </div>
           </div>
         </div>

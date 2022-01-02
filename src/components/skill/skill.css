@@ -4,7 +4,7 @@
   }
 
   30% {
-      background-color: rgb(126, 75, 75)
+      background-color: rgb(187, 37, 37)
   }
 
   60% {
@@ -31,7 +31,7 @@
 .h1 {
     text-align: center;
     color: red;
-    font-size: larger;
+    font-size: 40px;
     padding: 30px;
 }
 
