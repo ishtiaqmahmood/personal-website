@@ -1,0 +1,17 @@
+.f1 {
+    height: 10vh;
+    background-color: brown;
+}
+
+.copy {
+    text-align: center;
+    padding: 17px;
+}
+
+@media screen and (max-width: 600px) {
+    .f {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }

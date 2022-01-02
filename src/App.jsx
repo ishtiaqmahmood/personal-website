@@ -5,6 +5,8 @@ import Intro from "./components/intro/Intro";
 import ProductList from "./components/productList/ProductList";
 import Skill from "./components/skill/skill";
 import Service from "./components/service/service";
+import SocialFollow from "./components/socialFollow/socialFollow";
+import Footer from "./components/footer/footer"
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 
@@ -25,6 +27,8 @@ const App = () => {
       <Service />
       <ProductList />
       <Contact />
+      <SocialFollow />
+      <Footer />
     </div>
   );
 };

@@ -1,5 +1,5 @@
 .k { 
-    height: 130vh;
+    height: 110vh;
 }
 
 .heading {
@@ -8,7 +8,7 @@
 
 .heading-1 {
     text-align: center;
-    color: rgb(16, 158, 163);
+    color: rgb(6, 189, 134);
     font-size: 40px;
     padding: 10px;
 }
@@ -62,8 +62,8 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 80px;
     text-align: center;
-    color: red;
-    background-color: rgb(9, 17, 16);
+    color: black;
+    background-color: #87CEEB;
     height: 300px;
     justify-content: space-between;
     border-radius: 10px;
