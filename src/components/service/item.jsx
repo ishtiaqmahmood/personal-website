@@ -6,9 +6,10 @@ export default styled.div`
   align-items: center;
   height: 250px;
   width: 100%;
-  background-image: url("https://cdn.dribbble.com/users/3695917/screenshots/10487220/media/a9935a799b9d3bfe81b59a94520837a7.gif");
+  background-image: url("https://c.tenor.com/iDwSZynY_e0AAAAC/space-trippy.gif");
   color: #fff;
   margin: 0 15px;
+  background-position: center;
   font-size: 2em;
   font-weight: 500;
   padding: 50px;

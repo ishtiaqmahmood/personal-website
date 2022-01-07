@@ -1,6 +1,6 @@
 @keyframes dgcolor {
   0% {
-      background-color: white
+      background-color: rgb(46, 27, 27)
   }
 
   30% {
@@ -12,7 +12,7 @@
   }
 
   90% {
-      background-color: #068992
+      background-color: #160466
   }
 
   100% {
