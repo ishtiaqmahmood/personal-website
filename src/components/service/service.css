@@ -1,16 +1,17 @@
 .k { 
-    height: 110vh;
+    height: 60vh;
 }
 
 .heading {
-    height: 10vh;
+    height: 22vh;
 }
 
 .heading-1 {
     text-align: center;
-    color: rgb(6, 189, 134);
+    color: #e22417;
     font-size: 40px;
-    padding: 10px;
+    padding: 50px;
+    margin-bottom: 20px;
 }
 
 * {
@@ -20,53 +21,11 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
-.f {
-  height: auto;
-}
-
-/* Float four columns side by side */
-.column-1 {
-    float: left;
-    width: 25%;
-    padding: 0 10px;
-    margin-bottom: 20px;
-    height: auto;
-  }
-  
-  /* Remove extra left and right margins, due to padding */
-  .row-1 {
-    margin: 10px 5px;
-    padding: 40px;
-    height: auto;
-  }
-  
-  /* Clear floats after the columns */
-  .row-1:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
   /* Responsive columns */
-  @media screen and (max-width: 600px) {
-    .column-1 {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
+@media screen and (max-width: 600px) {
+  .column-1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
-  
-  /* Style the counter cards */
-  .card-1 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 80px;
-    text-align: center;
-    color: black;
-    background-color: #87CEEB;
-    height: 300px;
-    justify-content: space-between;
-    border-radius: 10px;
-    
-  
-  }
+}

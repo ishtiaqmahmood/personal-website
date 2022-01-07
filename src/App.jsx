@@ -5,7 +5,11 @@ import Intro from "./components/intro/Intro";
 import ProductList from "./components/productList/ProductList";
 import Skill from "./components/skill/skill";
 import Service from "./components/service/service";
+import Testimonials from "./components/testimonial/testimonial";
+import Game from "./components/game/game";
+import Crypto from "./components/cryptoprice/crypto";
 import SocialFollow from "./components/socialFollow/socialFollow";
+import Money from "./components/money/money";
 import Footer from "./components/footer/footer"
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
@@ -26,6 +30,9 @@ const App = () => {
       <Skill />
       <Service />
       <ProductList />
+      <Testimonials />
+      <Crypto />
+      <Game/>
       <Contact />
       <SocialFollow />
       <Footer />

@@ -21,7 +21,7 @@
 }
 
 .s { 
-    height: 145vh;
+    height: 125vh;
 }
 
 .h {
@@ -30,7 +30,7 @@
 
 .h1 {
     text-align: center;
-    color: rgb(35, 184, 171);
+    color: #e22417;
     font-size: 40px;
     padding: 30px;
 }

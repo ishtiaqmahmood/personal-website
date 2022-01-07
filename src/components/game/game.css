@@ -1,0 +1,14 @@
+.g {
+    height: 50vh;
+    margin-top:10px;
+}
+
+.game {
+    height: 40vh;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    width: 70%; 
+    margin: auto;
+    margin-top: 120px;
+
+}

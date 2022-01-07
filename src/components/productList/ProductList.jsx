@@ -6,7 +6,7 @@ const ProductList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">Portfolio</h1>
+        <h1 className="pl-title">Recent Works</h1>
         <p className="pl-desc">
           
         </p>
