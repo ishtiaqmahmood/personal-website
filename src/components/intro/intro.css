@@ -81,6 +81,10 @@
   position: absolute;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .i-bg {
   clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
   /* background-color: #59b256; */
@@ -104,9 +108,17 @@
     text-align: center;
     height: 100%;
   }
+  .i-name {
+    font-size: 60px;
+    text-align: center;
+  }
 
-  .i-desc{
+  .i-desc {
     display: none;
+  }
+  .i-title-item {
+    height: 30px;
+    font-size: 20px;
   }
   
 }

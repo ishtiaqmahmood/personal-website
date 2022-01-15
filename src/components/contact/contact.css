@@ -48,6 +48,7 @@
 
 .c-desc {
   font-weight: 200;
+  font-size: larger;
 }
 
 form {
@@ -61,7 +62,7 @@ input {
   border-bottom: 1px solid black;
   margin: 10px 0px;
   font-size: 14px;
-  padding-left: 10px;
+  background-color: cadetblue;
 }
 
 textarea {
@@ -69,6 +70,7 @@ textarea {
   margin: 10px 0px;
   font-size: 14px;
   padding-left: 10px;
+  font-size: larger;
 }
 
 button {
@@ -80,7 +82,18 @@ button {
   cursor: pointer;
 }
 
+@media screen and (max-width: 992px) {
+  .c {
+    height: 100vh;
+  }
+}
+
 @media screen and (max-width: 480px) {
+  .c {
+    background-color: hotpink;
+    height: 100vh;
+  }
+
   .c-wrapper {
     flex-direction: column;
     padding: 0px 50px;

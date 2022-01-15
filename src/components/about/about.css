@@ -102,8 +102,12 @@
     margin-bottom: 10px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 @media screen and (max-width:480px) {
-    .a{
+    .a {
       flex-direction: column;
       text-align: center;
       margin-top: 50px;
@@ -123,5 +127,8 @@
 
     .a-right{
       padding: 20px;
+    }
+    .i-name {
+      font-size: 10px;
     }
 }

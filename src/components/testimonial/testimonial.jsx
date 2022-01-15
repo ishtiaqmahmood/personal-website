@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import "./testimonial.css"
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "./testimonial.css";
 
 export default class Testimonials extends Component {
   render() {
@@ -18,7 +18,7 @@ export default class Testimonials extends Component {
           autoPlay={true}
           interval={6100}>
           <div>
-            <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--0SCWkYwS--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/9dhr4cw2s0skgfig8qnw.png" />
+            <img alt="" src="https://res.cloudinary.com/practicaldev/image/fetch/s--0SCWkYwS--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/9dhr4cw2s0skgfig8qnw.png" />
             <div className="myCarousel">
               <h3>Shirley Fultz</h3>
               <h4>Designer</h4>

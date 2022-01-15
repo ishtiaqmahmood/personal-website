@@ -30,7 +30,10 @@
 
 @media screen and (max-width: 480px) {
   .pl {
+    height: 160vh;
     padding: 10px;
+    position: relative;
+    top: 150px;
   }
 
   .pl-texts {
